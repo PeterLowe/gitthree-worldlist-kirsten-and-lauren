@@ -2,7 +2,7 @@
 // date November 2022
 // author Pete Lowe
 // Lauren O'Shea
-//  or here
+// Kirsten White
 // estimated time 120 minutes
 // actual time ??
 // version 1.0
