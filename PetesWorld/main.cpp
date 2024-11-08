@@ -1,8 +1,8 @@
 // program to find countries in Pete's World
 // date November 2022
 // author Pete Lowe
-// Lauren O'Shea
-// Kirsten White
+// Co-Leader Lauren O'Shea
+// Leader Kirsten White
 // estimated time 120 minutes
 // actual time ??
 // version 1.0
@@ -22,7 +22,7 @@ int main()
 		std::cout << "You need to select a number between 1 and 5" << std::endl;
 		return 0;
 	}
-	std::cout << "Pick a letter from A to A or X to Z" << std::endl; // change this line each iteration
+	std::cout << "Pick a letter from A to C or X to Z" << std::endl; // change this line each iteration
 	std::cin >> letter;
 	if (letter < 'A' || letter > 'Z') // not a capital letter
 	{ 
@@ -55,6 +55,52 @@ int main()
 			std::cout << "Australia, Antarctica, Aruba, Anguilla Leeward Islands, Antigua and Barbuda, American Samoa" << std::endl;
 		}
 	}
+	if (letter == 'b' || letter == 'B') //written by kirsten
+	{
+		if (region == 1)
+		{
+			std::cout << "Belize, Bermuda, Bolivia, Brazil" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Belarus, Belgium, Bosnia and Herzegovina, Bulgaria" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Benin, Botswana, Barkina Faso, Burundi" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "Bangladdesh, Bhutan, Brunei Darussalam" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Bahamas, Bahrain, Barbados" << std::endl;
+		}
+	}
+	if (letter == 'c' || letter == 'C')
+	{
+		if (region == 1)
+		{
+			std::cout << "Canada, Chile, Colombia, Costa Rica" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Croatia, Czech Republic" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Cameroon, Cape Verde, Central African Republic, Chad, Comoros, Democratic Republic of the Congo, Congo, Cote D'ivoire" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "Cambodia, China,Cocos (keeling) islands, Christmas Island, Cyprus" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Cayman Islands, Cook Islands, Cuba" << std::endl;
+		}
+	}
 	if (letter == 'x' || letter == 'X') //Lauren
 	{
 		if (region == 1)
@@ -79,11 +125,6 @@ int main()
 		}
 
 	}
-
-
-
-
-
 	if (letter == 'y' || letter == 'Y') //Lauren
 	{
 		if (region == 1)
@@ -107,7 +148,7 @@ int main()
 			std::cout << "There are no Ys in the rest of the world" << std::endl;
 		}
 
-	}	
+	}
 	if (letter == 'z' || letter == 'Z') // written by Pete
 	{
 		if (region == 1)
@@ -134,6 +175,6 @@ int main()
 	}
 	
 	
-	
+
 	return 1;
 }
